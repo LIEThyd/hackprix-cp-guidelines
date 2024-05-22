@@ -1,0 +1,245 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #2b2424;
+    color: #333;
+}
+
+
+@font-face {
+    font-family: 'Montserrat Semi-Bold';
+    src: url('fonts/static/Montserrat-SemiBold.ttf') format('woff2'),
+         url('fonts/static/Montserrat-SemiBold.ttf') format('woff'); /* Specify correct paths */
+    font-weight: 600; /* Semi-bold font weight */
+    font-style: normal; 
+  }
+  
+  @font-face {
+    font-family: 'Montserrat Bold';
+    src: url('fonts/static/Montserrat-Bold.ttf') format('woff2'),
+         url('fonts/static/Montserrat-Bold.ttf') format('woff'); /* Specify correct paths */
+    font-weight: bold; /* Bold font weight */
+    font-style: normal; 
+  }
+  
+  @font-face {
+    font-family: 'Poppins Semi-Bold';
+    src: url('fonts/poppins/Poppins-SemiBold.ttf') format('woff2'),
+         url('fonts/poppins/Poppins-SemiBold.ttf') format('woff');
+    font-weight: bold; /* Bold font weight */
+    font-style: normal; 
+  }
+  
+  @font-face {
+    font-family: 'Bricks Sans';
+    src: url('fonts/brics/HvDTrial_BrixSans-Regular-BF64c3379310193.otf') format('woff2'), /* Modern Browsers */
+         url('fonts/brics/HvDTrial_BrixSans-Regular-BF64c3379310193.otf') format('woff'); /* Legacy Browsers */
+    font-weight: normal; 
+    font-style: normal; 
+  }
+  @font-face {
+    font-family: 'NTBrickSans';
+    src: url('fonts/NTBrickSans/NTBrickSans.woff2') format('woff2'),
+         url('fonts/NTBrickSans/NTBrickSans.woff') format('woff'),
+         url('fonts/NTBrickSans/NTBrickSans.ttf') format('truetype'),
+         url('fonts/NTBrickSans/NTBrickSans.otf') format('truetype');
+    font-weight: normal;
+    font-style:normal;
+}
+
+
+
+
+
+
+/* Header styles */
+header {
+    background-color: #2e2f30;
+    color: #fff;
+    padding: 20px;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center items */
+    font-family: 'NTBrickSans', sans-serif;
+}
+
+
+.hplogo-container {
+    margin-right: 5%;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(200, 21, 67, 1) 95%, rgba(200, 21, 67, 1) 100%);
+    border-radius: 25px;
+    height: 95px;
+    width: 99px;
+}
+
+.hplogo-container img {
+    width: 100px;
+    height: auto;
+    margin-top: -3%;
+    border-radius: 25px;
+}
+
+h1 {
+    font-family: 'NTBrickSans', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 3%;
+    border-radius: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: rgb(37, 34, 34);
+}
+
+
+.quote {
+    border-left: 20px solid #616060;
+    background: #000000;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-style: bold;
+    border-radius:10px;
+}
+p2{
+    color: white;
+    font-family: 'Montserrat Bold', sans-serif;
+}
+p3{
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat Semi-Bold', sans-serif;
+    font-size: 20px;
+}
+
+.quote strong {
+    font-style: normal;
+}
+
+p {
+    font-family: 'Poppins Semi-Bold', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: rgb(36, 26, 26);
+}
+p1{
+    font-family: 'Poppins Semi-Bold', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: rgb(36, 26, 26);
+}
+
+/* Footer styles */
+footer {
+    background-color: #2e2f30;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px; 
+    color: #fff; 
+    font-size:30px; 
+    text-decoration: none;
+}
+
+/* Specific icon styles */
+.instagram-icon,
+.linkedin-icon,
+.twitter-icon,
+.email-icon {
+    background-color: transparent; 
+    padding: 10px; 
+    border-radius: 50%; 
+    transition: transform 0.3s ease-in;
+}
+
+
+.instagram-icon:hover,
+.linkedin-icon:hover,
+.twitter-icon:hover,
+.email-icon:hover {
+    transform: scale(1.2); /* Scale the icon on hover */
+}
+
+p4{
+    font-family: 'Poppins Semi-Bold', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+/* Link styles */
+a {
+    color: #1f2021;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+aside a {
+    text-decoration: underline;
+    display: inline-block;
+    background-color: #07376b;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-underline-offset:3px ;
+    transition: transform 0.3s ease-in;
+}
+aside a:hover{
+    transform:scale(1.05);
+}
+
+
+
+
+aside h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+aside p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
